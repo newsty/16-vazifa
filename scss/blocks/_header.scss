@@ -1,0 +1,113 @@
+.header {
+    width: 1360px;
+    margin: 0 auto;
+    height: 650px;
+  
+  
+      &-card {
+        height: 48px;
+        background: #eff5ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-img {
+          width: 4%;
+        }
+        &-text {
+          width: 70%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &-img {
+            margin-left: 10px;
+          }
+        }
+        &-extra {
+          width: 20%;
+          text-align: end;
+        }
+      }
+      &-nav {
+        height: 72px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-logo {
+          width: 20%;
+        }
+        &-list {
+          width: 60%;
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &-item {
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &-link{
+              text-decoration: none;
+             border: none;
+            color: black;
+  
+             &-phone{
+  
+              display: flex;
+              justify-content: space-between;
+             align-items: center;
+             &-img{
+              width: 20px;
+              height: 20px;
+              padding: 10px;
+              border: 1px solid rgb(162, 162, 205);
+              border-radius: 50% ;
+              &-tel{
+                text-decoration: none;
+              }
+             }
+             }
+             }
+              }
+            }
+          }
+
+    &-hero{
+          height: 537px;
+          background: #EFF5FF;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     &-desc{
+      width: 45%;
+      
+      &-title{
+        font-size: 34px;
+        line-height: 56px;
+        font-weight: 700;
+    color: #373633;
+        &-span{
+          color: #2F5DC7;
+        }
+      }
+      &-text{
+        width: 60%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        &-button{
+          width: 246px;
+          height: 56px;
+          background: #FFCD2D;
+  border: none;
+        }
+      }
+     }
+     &-img{
+      width: 45%;
+     }
+        }
+    }
+    
+  
+  

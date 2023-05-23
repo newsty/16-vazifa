@@ -1,0 +1,43 @@
+.section1{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-container{
+        width: 1120px;
+        height: 400px;
+        border: 1px solid;
+   &-text{
+    margin-left: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-list{
+        list-style: none;
+        width: 30%;
+        &-item{
+         
+         
+          &-link{
+            padding: 5px;
+text-decoration: none;
+          }
+        }
+    }
+    &-list1{
+        margin-top: -20px;
+
+        list-style: none;
+        width: 30%;
+        &-item{
+         
+         
+          &-link{
+            padding: 5px;
+text-decoration: none;
+          }
+        }
+    }
+   }
+    }
+}

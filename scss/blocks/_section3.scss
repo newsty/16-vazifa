@@ -1,0 +1,43 @@
+.section3{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-container{
+        width: 1066px;
+        height: 182px;
+        margin-top: -5%; 
+        &-text{
+            margin-left: -35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &-list{
+                list-style: none;
+                width: 30%;
+                &-item{
+                 
+                 
+                  &-link{
+                    padding: 5px;
+        text-decoration: none;
+                  }
+                }
+            }
+            &-list1{
+                margin-top: -20px;
+        
+                list-style: none;
+                width: 30%;
+                &-item{
+                 
+                 
+                  &-link{
+                    padding: 5px;
+        text-decoration: none;
+                  }
+                }
+            }
+           }
+    }
+}
